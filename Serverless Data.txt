@@ -1,0 +1,13 @@
+USER DYNAMODB:
+	ID de clave de acceso:
+	AKIA6PSXCY27HGRFZAOU
+
+	Clave de acceso secreta:
+	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
+
+USER ADMIN:
+	ID de clave de acceso:
+	AKIA6PSXCY27KPSHZHPC
+
+	Clave de acceso secreta:
+	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
