@@ -5,13 +5,13 @@ const UserProfile = ({ toogleProfile }) => {
   return (
     <div className="container">
       <div className="img"></div>
-      <p>Cristian Vega</p>
-      <Buttons toogleProfile={toogleProfile} text="Recibos" height="56" />
+      <p>Nombre Encargado</p>
       <Buttons
-        toogleProfile={() => {}}
-        text="Información personal"
+        toogleProfile={toogleProfile}
+        text="Administrar Registro"
         height="56"
       />
+      <Buttons toogleProfile={() => {}} text="Ver información" height="56" />
 
       <style jsx>{`
         .container {

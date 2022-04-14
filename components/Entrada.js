@@ -1,14 +1,15 @@
 import React from 'react'
 
-const Entrada = ({onSubmit, code, state}) => {
+const Entrada = ({ onSubmit, code, state }) => {
     return (
         <div className="container">
-            
+
             <h1>{state ? 'salir del' : 'entrar al'} biciparqueadero</h1>
+            <br /><br />
             <p>Suministrado el código al encargado del biciparqueadero</p>
-            <form onSubmit={ e => onSubmit(e)}>
-                <button>Generar código de {state ? 'salida' : 'entrada'}</button>
-                <p>{code ? code : 'codigo'}</p>
+            <br /><br /><br />
+            <form onSubmit={e => onSubmit(e)}>
+                <button>Accionar Candado</button>
             </form>
 
             <style jsx>{`
